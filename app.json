@@ -1,0 +1,17 @@
+{
+  "name": "heroku-shiny-app",
+  "description": "This is an example Shiny application, which uses the heroku-buildpack-r for Heroku.",
+  "keywords": [
+    "r",
+    "shiny",
+    "heroku"
+  ],
+  "repository": "https://github.com/virtualstaticvoid/heroku-shiny-app",
+  "logo": "https://github.com/virtualstaticvoid/heroku-shiny-app/raw/master/logo.png",
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "https://github.com/virtualstaticvoid/heroku-buildpack-r.git#cedar-14-chroot"
+    }
+  ]
+}

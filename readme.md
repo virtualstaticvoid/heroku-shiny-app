@@ -18,7 +18,7 @@ git add --all
 git commit -m "initial"
 
 # create a new heroku application and deploye
-heroku create --buildpack https://github.com/virtualstaticvoid/heroku-buildpack-r.git#cedar-14-chroot
+heroku create --buildpack https://github.com/virtualstaticvoid/heroku-buildpack-r.git#heroku-16
 git push heroku master
 
 # view the application

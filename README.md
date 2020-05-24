@@ -18,9 +18,13 @@ git add --all
 git commit -m "initial"
 
 # create a new heroku application and deploye
-heroku create --buildpack https://github.com/virtualstaticvoid/heroku-buildpack-r.git#heroku-16
+heroku create --buildpack https://github.com/virtualstaticvoid/heroku-buildpack-r.git
 git push heroku master
 
 # view the application
 heroku open
 ```
+
+## License
+
+MIT License. Copyright (c) 2020 Chris Stefano. See [LICENSE](LICENSE) for details.

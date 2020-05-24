@@ -1,6 +1,6 @@
 {
   "name": "heroku-shiny-app",
-  "stack": "heroku-16",
+  "stack": "heroku-18",
   "description": "This is an example Shiny application, which uses the heroku-buildpack-r for Heroku.",
   "keywords": [
     "r",
@@ -11,7 +11,7 @@
   "success_url": "/",
   "buildpacks": [
     {
-      "url": "https://github.com/virtualstaticvoid/heroku-buildpack-r.git#heroku-16"
+      "url": "https://github.com/virtualstaticvoid/heroku-buildpack-r.git"
     }
   ]
 }

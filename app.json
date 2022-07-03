@@ -1,10 +1,11 @@
 {
   "name": "heroku-shiny-app",
-  "stack": "heroku-20",
+  "stack": "heroku-22",
   "description": "This is an example Shiny application, which uses the heroku-buildpack-r for Heroku.",
   "keywords": [
     "r",
-    "shiny"
+    "shiny",
+    "heroku-buildpack-r"
   ],
   "repository": "https://github.com/virtualstaticvoid/heroku-shiny-app",
   "logo": "https://github.com/virtualstaticvoid/heroku-shiny-app/raw/master/logo.png",
